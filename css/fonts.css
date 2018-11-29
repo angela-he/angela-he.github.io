@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Celebration-Outline';
+    src: url('/fonts/celebration-outline-webfont.woff') format('woff'),
+         url('/fonts/celebration-outline-webfont.woff2') format('woff2'),
+         url('fonts/Celebration-Outline.otf') format('opentype'),
+         url('/fonts/celebration-outline-webfont.ttf') format('truetype'),
+         url('/fonts/celebration-outline-webfont.svg#celebration-outline-webfont') format('svg');
+}
+@font-face {
+  font-family: "Celebration-Shadow";
+  src: url("./fonts/Celebration-Shadow.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Celebration-Shadow.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Celebration-Shadow.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Celebration-Shadow.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Celebration-Shadow.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Celebration-Shadow.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Celebration-Shadow.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
