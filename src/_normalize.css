@@ -59,7 +59,14 @@ th {
     font-weight: bold;
     vertical-align: text-top;
     padding-top:var(--spacing-medium);
-    
+}
+
+.project-title {
+    font-family: Karla;
+    font-weight: bold;
+    vertical-align: text-top;
+    font-size: 1.5rem;
+    line-height: 0;
 }
 
 /*
@@ -77,7 +84,7 @@ td a {
 .text-link {
     display: inline-flex;
     width: auto;
-/*    text-decoration: underline;*/
+    text-decoration: underline !important;
 }
 
 .bt--dashed {
@@ -92,16 +99,22 @@ a:hover {
     background-color: none;
 }
 
+/*if large*/
+@media screen and (min-width: 60em) {
+    #hide-large { display: none; }
+}
+
 /* if not large, reverse stack: */
 @media screen and (max-width: 60em) {
-  .column-reverse {
+    .column-reverse {
     display: flex;
     flex-direction: column-reverse;
-  }
-  .column-stack {
+    }
+    .column-stack {
     display: flex;
     flex-direction: column; 
-  }
+    }
+    #hide-ns { display: none; }
 }
 
 /* Grouping content
