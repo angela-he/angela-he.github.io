@@ -2257,9 +2257,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w-30-l { width: 30%; }
  .w-33-l { width: 33%; }
  .w-34-l { width: 34%; }
+ .w-35-l { width: 35%; }
  .w-40-l { width: 40%; }
  .w-50-l { width: 50%; }
  .w-60-l { width: 60%; }
+ .w-65-l { width: 65%; }
  .w-70-l { width: 70%; }
  .w-75-l { width: 75%; }
  .w-80-l { width: 80%; }
