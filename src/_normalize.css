@@ -236,6 +236,7 @@ sup {
 
 img {
   border-style: none;
+  image-orientation: from-image;
 }
 
 /* Forms
