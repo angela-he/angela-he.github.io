@@ -729,7 +729,7 @@ img { max-width: 100%; }
 
 */
 .celebration { font-family: 'Celebration-Outline', 'Inconsolata', sans-serif; }
-.celebration-shadow { font-family: 'Celebration-Shadow', 'Inconsolata', sans-serif; }
+.celebration-shadow { font-family: 'Celebration-Shadow', 'Celebration-Outline', 'Inconsolata', sans-serif; }
 .inconsolata { font-family: 'Inconsolata', Consolas, monospace; }
 .karla { font-family: 'Karla', avenir, helvetica; }
 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
