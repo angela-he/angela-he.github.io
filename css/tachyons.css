@@ -46,6 +46,7 @@ th { font-family: Karla; font-weight: bold; text-align: left; }
 .date { font-weight: 400; font-style: italic; vertical-align: text-top; padding-top: 1rem; }
 .title { font-family: Karla; font-weight: bold; vertical-align: text-top; padding-top: 1rem; }
 .project-title { font-family: Karla; font-weight: bold; vertical-align: text-top; font-size: 1.5rem; line-height: 0; }
+.sub-title { font-family: Karla; font-weight: bold; font-size: 1.25rem; line-height: 0; }
 /*
 td:hover {
     background-color: lightblue;

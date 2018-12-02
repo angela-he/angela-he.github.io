@@ -69,6 +69,13 @@ th {
     line-height: 0;
 }
 
+.sub-title {
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 0;
+}
+
 /*
 td:hover {
     background-color: lightblue;
