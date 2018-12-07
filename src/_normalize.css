@@ -98,12 +98,8 @@ td a {
     border-top: 1px dashed navy;
 }
 
-a:hover {
+.hover {
     background-color: lightblue;
-}
-
-.no--hover {
-    background-color: none;
 }
 
 /*if large*/

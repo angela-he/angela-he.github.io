@@ -15,7 +15,7 @@
   transition: color .15s ease-in;
 }
 .link:hover   {
-  transition: color .15s ease-in;
+  background-color: lightblue;
 }
 .link:active  {
   transition: color .15s ease-in;

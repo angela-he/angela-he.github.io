@@ -55,8 +55,7 @@ td:hover {
 td a { display: block; width: 100%; height: 100%; }
 .text-link { display: inline-flex; width: auto; text-decoration: underline !important; }
 .bt--dashed { border-top: 1px dashed navy; }
-a:hover { background-color: lightblue; }
-.no--hover { background-color: none; }
+.hover { background-color: lightblue; }
 /*if large*/
 /* if not large, reverse stack: */
 /* Grouping content
@@ -896,7 +895,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 .link { text-decoration: none; transition: color .15s ease-in; }
 .link:link, .link:visited { transition: color .15s ease-in; }
-.link:hover { transition: color .15s ease-in; }
+.link:hover { background-color: lightblue; }
 .link:active { transition: color .15s ease-in; }
 .link:focus { transition: color .15s ease-in; outline: 1px dotted currentColor; }
 /*
