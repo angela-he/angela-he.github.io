@@ -40,62 +40,88 @@
                 <!-- PRODUCT & th padding(?) -->
                 <tr class="">
                     <td class="w-90-l w-100 bt">
-                        <p class="project-title lh-title karla">The Atlantic - Collections</p>
-                        <p class="lh-title">A new way to create and exhibit series of stories</p>
+                        <p class="project-title pt2 karla">The Atlantic - Collections</p>
                         <img src="/images/collections/collections-header.png" class="w-100 pv2">
 
-                        <p class="lh-title">In collaboration with Caitlyn Hampton, I designed Collections, a story building tool. </p><br>
+                        <p class="lh-title">In collaboration with Caitlyn Hampton, I designed Collections, a tool to create and exhibit series of stories. </p><br>
                         
                         <p class="lh-title sub-title">The Problem</p>
-                        <p class="lh-title">Current collections of stories (channel pages, categories, special projects) are stale, inflexible, and do little more than list out articles. Additionally, the distinctions and differences between each are not obvious or useful to readers. </p><br>
+                        <p class="lh-title">Current story collections on The Atlantic (i.e. <a href="https://www.theatlantic.com/entertainment/" class="link text-link" target="_blank">channels,</a> <a href="https://www.theatlantic.com/category/kavanaugh-ford-hearing/" class="link text-link" target="_blank">catagories,</a> <a href="https://www.theatlantic.com/projects/the-great-college-rip-off/" class="link text-link" target="_blank">special projects</a>) are stale, inflexible layouts that do little more than list articles. <br>We want to package articles together in beautiful, distinctive, and useful ways for readers while reducing custom builds for product and editorial teams. </p><br>
                         
                         <p class="lh-title sub-title">Research</p>
                         <ul class="lh-title">
-                            <li>Stakeholder interviews to determine use cases of Collections tool</li>
-                            <ul><li>Interviewed edit, design, sales, data, and product teams</li></ul>
-                            <li>Competitive research of other landing pages that provide delightful and immersive experiences to readers</li>
+                            <li>Stakeholder interviews to determine needs and wishes for editorial, design, sales, data, and product teams</li>
+                            <li>Competitive research of other media sites' collections pages</li>
+                            <ul><li>How do others organize stories to provide delightful and immersive experiences to readers?</li></ul>
+<!--
                             <li>User stories: who (are our users), what (is the need to meet), wow (how to measure success)?
                                 <ul>
                                     <li>ex) A reader found a special project on Twitter, read at least 2 stories, and then tweeted the special project himself.</li>
                                 </ul>
                             </li>
+-->
                         </ul><br>
                         
-                        <p class="lh-title sub-title">Goals</p>
+                        <p class="lh-title sub-title">Defining Goals</p>
                         <ul class="lh-title">
-                            <li>Empower editors with the flexibility to create story collection layouts that highlight their editorial coverage while impressing readers</li>
-                            <li>Give readers collection pages that don't just host articles, but serve as rich story-telling pages themselves</li>
-                            <li>Reduce # of unique page builds by the product team, saving time &amp; resources</li>
-                        </ul>
-                        <p class="lh-title">From this research phase, we set out to build an internal tool for Atlantic folks to externally output collections of stories, all created with editorial storytelling and reader delight in mind.</p><br>
+                            <li>Focusing on user outcomes, we identified 5 user archetypes: readers, editorial/creative, sales/clients, product, growth.</li>
+                            <li>For each user, an empathy map was created that highlighted what they said, thought, felt, and did as part of their role:</li>
+                            <div class="dtc-ns tc">
+                                    <img src="images/collections/empathy-map.png" class="pt3"><p><em>Empathy map for editorial/creative user</em></p>
+                            </div>   
+                            <li>Next, many user stories were made, each defining a successful scenario. We ran these by respective stakeholders to ensure all scenarios were covered.<br> 
+                                <ul>
+                                    <li>User story formula: who (is the user), what (is the need to be met), how (to measure success).</li>
+                                    <li>ex) <em>A reader found a special project on Twitter, read at least 2 stories, and then tweeted the special project himself.</em></li>
+                                </ul>
+                            </li>
+                            <div class="dtc-ns tc">
+                                    <img src="images/collections/brainstorming2.png" class="pt3"><p><em>Organizing user stories</em></p>
+                            </div> 
+                            <li>Main goals:</li>
+                            <ul>
+                                <li>Empower editors with the flexibility to create story collection layouts that highlight their editorial coverage while impressing readers</li>
+                                <li>Give readers collection pages that don't just host articles, but serve as rich story-telling pages themselves</li>
+                                <li>Reduce # of unique page builds by the product team, saving time &amp; resources</li>
+                            </ul>
+                        </ul><br>
+                        
+                        <p class="lh-title sub-title">Proposed Solution</p>
+                        <ul class="lh-title">
+                            <li>Choose a scenario-driven template:</li>
+                            <div class="dtc-ns tc">
+                                <img src="images/collections/choose-scenario.png"><p><em>* Conceptual scenarios</em></p>
+                            </div>    
+                            <li>Each template has predetermined zones: header, curated, river (list) of articles. Different variations of each zone can be selected to display the component differently:</li>
+                            <img src="images/collections/zones.png" class="pv2">
+                            <img src="images/collections/proposal.png" class="pb2">
+                            <li>This solution provides structure and flexibility, allowing editors to create uniquely-structured pages while maintaining brand cohesion. New variants can also be created and added to the tool.</li>
+                        </ul><br>
 
                         
-                        <p class="lh-title sub-title">Wireframes</p>
-                        <p class="lh-title">Scenario-driven templates with interchangable zones to provide the right mixture of structure and flexibility: </p>
-                        <img src="images/collections/collections-plan.png"><br><br>
+                        <p class="lh-title sub-title">Initial Designs</p>
+                        <ul class="lh-title">
+                            <li>Wireframing: mocking up different article components, curated sections, headers, river styles: </li>
+                            <div class="dtc-ns tc">
+                                <img src="images/collections/curated.png" class="pt2"><p><em>Curated zone explorations</em></p>
+                            </div> <br>
+                            <li>Paper prototyping: we took our designs and paper prototyped with editors to see how they would build pages:</li>
+                            <div class="dt-ns dt--fixed-ns">
+                              <div class="dtc-ns tc pa2">
+                                <img src="images/collections/paper-prototype1.jpg">
+                              </div>
+                              <div class="dtc-ns tc pa2">
+                                <img src="images/collections/paper-prototype2.jpg">
+                              </div>
+                            </div><br>
+                            <li>User testing: editorial wanted text components, so using Usertesting.com, we set out to see if text provided value to these pages:</li>
+                            <div class="dtc-ns tc">
+                                <img src="images/collections/user-testing.png" class="pt2"><p><em>Left side: Subheaders, light text. Right side: Only subheaders</em></p>
+                            </div>                               
+                            <ul><li>Results showed that text and subheaders provided important hierarchy and outline to a collection of stories, while no text left readers with a weaker impression of the collection's mission.</li></ul>
+                        </ul><br>
                         
-                        <p class="lh-title">Paper prototyping with editorial staff to see how they would use this tool: </p>
-                        <div class="dt-ns dt--fixed-ns">
-                          <div class="dtc-ns tc pa2">
-                            <img src="images/collections/paper-prototype1.jpg">
-                          </div>
-
-                          <div class="dtc-ns tc pa2">
-                            <img src="images/collections/paper-prototype2.jpg"><br><br>
-                          </div>
-                        </div>
-                        
-                        <p class="lh-title">Examples of different zone variations and page layout mockups: </p>
-                        <img src="images/collections/curated2.png">
-                        <img class="pt2" src="images/collections/thematic.png">
-
-                        
-                        
-                        <p class="lh-title sub-title">User Testing</p><br>
-                        
-                        <p class="lh-title sub-title">Designs</p><br>
-                        
-                        
+                        <p class="lh-title sub-title">Next Steps to come!</p><br><br><br>
                     </td>
                 </tr>
 
