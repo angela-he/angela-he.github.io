@@ -41,6 +41,8 @@ body { margin: 0; font-family: Inconsolata; font-weight: 100; }
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+nav img { vertical-align: text-top; }
+#center-me { vertical-align: baseline; }
 h1 { font-size: 2em; margin: .67em 0; }
 th { font-family: Karla; font-weight: bold; text-align: left; }
 .date { font-weight: 400; font-style: italic; vertical-align: text-top; padding-top: 1rem; }

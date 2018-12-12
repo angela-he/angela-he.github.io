@@ -36,6 +36,14 @@ body {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
+nav img {
+    vertical-align: text-top;
+}
+
+#center-me {
+    vertical-align: baseline;
+}
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
