@@ -40,6 +40,13 @@ nav img {
     vertical-align: text-top;
 }
 
+/** sticky doesn' work**/
+#sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
 #center-me {
     vertical-align: baseline;
 }
@@ -100,6 +107,14 @@ td a {
     display: inline-flex;
     width: auto;
     text-decoration: underline !important;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
 }
 
 .bt--dashed {
