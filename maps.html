@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <title>Angela Y. He - Interactive Maps</title>
+        <meta name="author" content="">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/tachyons.css">  
+        <link rel="stylesheet" type="text/css" href="/css/fonts.css">    
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+        <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+    
+  <body class="ph3 ph6-l ph4-m bg-light-yellow navy">
+    <header>
+    <!-- NAV BAR -->
+    <nav class="dt w-100 w-60-ns pt3 pt4-ns">
+      <div class="dt-row w-100">
+        <p class="fl w-34 w-25-l"><a href="index.html" title="Home" class="link"><img src="images/nav/home-icon.png" width="15"> HOME</a></p>
+        <p class="fl w-34 w-25-l"><a href="about.html" title="About Me" class="link"><img src="images/nav/about-icon.png" width="16"> ABOUT</a></p>
+        <p class="fl w-30 w-25-l"><a href="journal.html" title="Journal" class="link"><img src="images/nav/journal-icon.png" width="17"> JOURNAL</a></p>   
+      </div>
+      <div class="dt-row w-100">
+        <p class="fl w-34 w-25-l"><a href="https://www.twitter.com/angelayhe" title="Twitter" class="link" target="_blank"><img src="images/nav/twitter-icon.png" width="15"> TWEETS</a></p>
+        <p class="fl w-34 w-25-l"><a href="https://www.goodreads.com/angela-he" title="Goodreads" class="link" target="_blank"><img src="images/nav/reading-icon.png" width="14" > READING</a></p>
+        <p class="fl w-30 w-25-l"><a href="mailto:angelahe4@gmail.com" title="Email" class="link"><img src="images/nav/email-icon.png" width="16" id="center-me"> SAY HELLO</a></p>
+      </div> 
+    </nav>
+    </header>
+      
+    <div class="row">
+    <div class="w-100-ns pv4 pv5-l column-reverse">
+        <!-- CASE STUDIES -->
+        <div class="cf fl w-100 w-65-l">
+          <div class="w-95-l">
+            <table class="collapse w-100"><tbody>
+                <!-- PRODUCT & th padding(?) -->
+                <tr class="">
+                    <td class="w-90-l w-100 bt">
+                        <p class="project-title pt2 karla">Interactive Map Visualizations</p>
+                        <img src="/images/maps/maps-header.png" class="w-100 pv2">
+
+                        <p class="lh-title">I collaborated with front-end developer Rekha Tenjarla to create three interactive map visualizations that allow readers to look up how politically partisan their home county is.</p><br>
+                        
+                        <p class="lh-title sub-title">Overview</p>
+                        <p class="lh-title">For <a href="https://www.theatlantic.com/politics/archive/2019/03/us-counties-vary-their-degree-partisan-prejudice/583072/" class="link text-link" target="_blank">an Atlantic piece on political intolerance,</a> we were given data for how politically partisan each county in the U.S. ranked.  In some places, Americans are quicker to dislike or stereotype those who hold different political views, while other places are more accepting of others despite disagreements. Using this data, we created interactive d3.js maps to accompany the article. The final maps looked like this: </p>
+                        
+                        
+                        <div class="dtc-ns tc">
+                                <img src="images/maps/map-search-final.gif" class="pt3"><p><em>Searching a county</em></p>
+                        </div>
+                        
+                        <p class="lh-title sub-title">UI Exploration</p>
+                        <p class="lh-title">Legend: numerical scores didn't convey much information to the reader, so simpler language and a horizontal legend (optimized for mobile/desktop) were used.</p>
+                        
+                        <div class="dtc-ns tc">
+                                <img src="images/maps/map-legends.png" class="pt3"><p><em>Legend layouts</em></p>
+                        </div><br>   
+                        
+                        <div class="dtc-ns tc">
+                                <img src="images/maps/maps-colors5.png" class="pt3"><p><em>Color schemes for the three maps</em></p>
+                        </div> <br>
+                        
+                        <p class="lh-title sub-title">UX Considerations</p>
+                        <ul class="lh-title">
+                            <li>Disable tapping on maps for mobile because of small screen size<ul><li>Use search bar instead!</li></ul></li>
+                            <li>Tooltip should be auto-positioned in mobile <ul><li>Won't get cut out of the small screen</li><li>Won't overlap with the county</li></ul></li>
+                            <li>Simplify tooltip text so it feels personal, friendly, and informative
+                        </ul><br>
+                        
+ 
+                        <p class="lh-title sub-title">Final Maps</p>
+                        <p class="lh-title"><a href="https://www.theatlantic.com/politics/archive/2019/03/us-counties-vary-their-degree-partisan-prejudice/583072/" class="link text-link" target="_blank">Explore the maps here!</a> Look up your home county to see how politically prejudiced it's ranked and read about the data findings in the article. </p>
+                        
+                        <div class="dtc-ns tc">
+                                <img src="images/maps/map-final.png" class="pt3">
+                        </div> <br>
+                        
+                        <p class="lh-title sub-title">But wait -</p>
+                        <p class="lh-title">...there were map cupcakes (mapcakes!) to celebrate the launch, courtesy of our lovely product manager, Anika. </p>
+                        <div class="dtc-ns tc">
+                                <img src="images/maps/mapcakes.png" class="pt3">
+                        </div> <br>
+                        
+                        
+                        <div display="in-line">
+                        <p class="lh-title left"><a href="index.html" class="link text-link">← Back to home</a></p>
+
+                        <p class="lh-title right"><a href="collections.html" class="link text-link">Next: Collections →</a></p>
+                        </div>
+                        <br><br>
+                        
+                    </td>
+                </tr> 
+            </tbody></table>
+          </div>
+        </div>
+    
+        <!-- INTRO -->
+        <div class="cf fl w-100 w-35-l pl4-l pr5-l">
+          <div class="pb3 pb4-l" >
+            <a href="index.html" class="f2 celebration link">Angela Y. He</a>
+            <p class="lh-title" id="hide-ns">is a product designer with experience in UX/UI, front-end, and graphic design. Her passions lie in emerging tech + design for social impact and delight.<br><br>Currently doing product design at <a class="link" title="The Atlantic" target="_blank" href="https://theatlantic.com">The Atlantic.</a></p><br>
+            <a class="link" id="hide-ns" title="About" href="about.html"><em>Read more..</em></a>
+          </div>
+        </div>
+    </div>
+    </div>
+  </body>
+</html>
+
