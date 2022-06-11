@@ -46,11 +46,11 @@ nav img { vertical-align: text-top; }
 #sticky { position: -webkit-sticky; /* Safari */ position: sticky; top: 0; }
 #center-me { vertical-align: baseline; }
 h1 { font-size: 2em; margin: .67em 0; }
-th { font-family: Karla; font-weight: bold; text-align: left; }
+th { font-family: Poppins; font-weight: bold; text-align: left; }
 .date { font-weight: 400; font-style: italic; vertical-align: text-top; padding-top: 1rem; }
-.title { font-family: Karla; font-weight: bold; vertical-align: text-top; padding-top: 1rem; }
-.project-title { font-family: Karla; font-weight: bold; vertical-align: text-top; font-size: 1.5rem; line-height: 0; }
-.sub-title { font-family: Karla; font-weight: bold; font-size: 1.25rem; line-height: 0; }
+.title { font-family: Poppins; font-weight: bold; vertical-align: text-top; padding-top: 1rem; }
+.project-title { font-family: Poppins; font-weight: 500; vertical-align: text-top; font-size: 1.4rem; line-height: 1.25; }
+.sub-title { font-family: Poppins; font-weight: 500; font-size: 1.25rem; line-height: 1.25; }
 /*
 td:hover {
     background-color: lightblue;
@@ -737,6 +737,7 @@ img { max-width: 100%; }
 .celebration-shadow { font-family: 'Celebration-Shadow', 'Celebration-Outline', 'Inconsolata', sans-serif; }
 .inconsolata { font-family: 'Inconsolata', Consolas, monospace; }
 .karla { font-family: 'Karla', avenir, helvetica; }
+.poppins { font-family: 'Poppins', sans-serif; }
 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
 .serif { font-family: georgia, times, serif; }
 .system-sans-serif { font-family: sans-serif; }
