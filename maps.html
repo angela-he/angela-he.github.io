@@ -10,12 +10,13 @@
         <link rel="stylesheet" href="css/tachyons.css">  
         <link rel="stylesheet" type="text/css" href="/css/fonts.css">    
         <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
         <!-- adding Poppins header style -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
         <!-- end Poppins -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap" rel="stylesheet">
+
         <link rel="icon" type="image/png" href="images/favicon.png" />
   </head>
     
@@ -24,9 +25,9 @@
     <!-- NAV BAR -->
     <nav class="dt w-100 w-60-ns pt3 pt4-ns">
       <div class="dt-row w-100">
-        <p class="fl w-34 w-25-l"><a href="index.html" title="Home" class="link"><img src="images/nav/home-icon.png" width="15"> WORK</a></p>
-        <p class="fl w-34 w-25-l"><a href="about.html" title="About Me" class="link"><img src="images/nav/about-icon.png" width="16"> ABOUT</a></p>
-        <p class="fl w-30 w-25-l"><a href="mailto:angelahe4@gmail.com" title="Email" class="link"><img src="images/nav/email-icon.png" width="16" id="center-me"> EMAIL</a></p>  
+        <p class="fl w-34 w-25-l"><a href="index.html" title="Home" class="link"><img src="images/nav/home-icon.png" width="15" class="pt05 pr1"> WORK</a></p>
+        <p class="fl w-34 w-25-l"><a href="about.html" title="About Me" class="link"><img src="images/nav/about-icon.png" width="16" class="pt05 pr1"> ABOUT</a></p>
+        <p class="fl w-30 w-25-l"><a href="mailto:angelahe4@gmail.com" title="Email" class="link"><img src="images/nav/email-icon.png" width="16" id="center-me" class="pt05 pr1"> EMAIL</a></p> 
       </div>
     </nav>
     </header>
@@ -43,29 +44,29 @@
                         <p class="project-title pt2">Interactive Maps</p>
                         <img src="/images/maps/maps-header.png" class="w-100 pv2">
 
-                        <p class="lh-title">I collaborated with front-end developer Rekha Tenjarla to create three interactive map visualizations that allow readers to look up how politically partisan their home county is.</p><br>
+                        <p>I collaborated with front-end developer Rekha Tenjarla to create three interactive map visualizations that allow readers to look up how politically partisan their home county is.</p><br>
                         
                         <p class="sub-title">Overview</p>
-                        <p class="lh-title">For <a href="https://www.theatlantic.com/politics/archive/2019/03/us-counties-vary-their-degree-partisan-prejudice/583072/" class="link text-link" target="_blank">an Atlantic piece</a> on political intolerance, we were given data for how politically partisan each county in the U.S. ranked.  In some places, Americans are quicker to dislike or stereotype those who hold different political views, while other places are more accepting of others despite disagreements. Using this data, we created interactive d3.js maps to accompany the article. The final maps looked like this: </p>
+                        <p>For <a href="https://www.theatlantic.com/politics/archive/2019/03/us-counties-vary-their-degree-partisan-prejudice/583072/" class="link text-link" target="_blank">an Atlantic piece</a> on political intolerance, we were given data for how politically partisan each county in the U.S. ranked.  In some places, Americans are quicker to dislike or stereotype those who hold different political views, while other places are more accepting of others despite disagreements. Using this data, we created interactive d3.js maps to accompany the article. The final maps looked like this: </p>
                         
                         
                         <div class="dtc-ns tc">
-                                <img src="images/maps/maps-search-final.gif" class="pt3"><p><em>Searching a county</em></p>
+                            <img src="images/maps/maps-search-final.gif" class="pt3"><p><em>Searching a county</em></p>
                         </div>
                         
                         <p class="sub-title">UI Exploration</p>
-                        <p class="lh-title">Legend: numerical scores didn't convey much information to the reader, so simpler language and a horizontal legend (optimized for mobile/desktop) were used.</p>
+                        <p>Legend: numerical scores didn't convey much information to the reader, so simpler language and a horizontal legend (optimized for mobile/desktop) were used.</p>
                         
                         <div class="dtc-ns tc">
-                                <img src="images/maps/maps-legends.png" class="pt3"><p><em>Legend layouts</em></p>
+                            <img src="images/maps/maps-legends.png" class="pt3"><p><em>Legend layouts</em></p>
                         </div><br>   
                         
                         <div class="dtc-ns tc">
-                                <img src="images/maps/maps-colors.png" class="pt3"><p><em>Color schemes for the three maps</em></p>
+                            <img src="images/maps/maps-colors.png" class="pt3"><p><em>Color schemes for the three maps</em></p>
                         </div> <br>
                         
                         <p class="sub-title">UX Considerations</p>
-                        <ul class="lh-title">
+                        <ul>
                             <li>Disable tapping on maps for mobile because of small screen size<ul><li>Use search bar instead!</li></ul></li>
                             <li>Tooltip should be auto-positioned in mobile <ul><li>Won't get cut out of the small screen</li><li>Won't overlap with the county</li></ul></li>
                             <li>Simplify tooltip text so it feels personal, friendly, and informative
@@ -73,23 +74,20 @@
                         
  
                         <p class="sub-title">Final Maps</p>
-                        <p class="lh-title"><a href="https://www.theatlantic.com/politics/archive/2019/03/us-counties-vary-their-degree-partisan-prejudice/583072/" class="link text-link" target="_blank">Explore the maps here!</a> Look up your home county to see how politically prejudiced it's ranked and read about the data findings in the article. </p>
+                        <p><a href="https://www.theatlantic.com/politics/archive/2019/03/us-counties-vary-their-degree-partisan-prejudice/583072/" class="link text-link" target="_blank">Explore the maps here!</a> Look up your home county to see how politically prejudiced it's ranked and read about the data findings in the article. </p>
                         
                         <div class="dtc-ns tc">
-                                <img src="images/maps/maps-final.png" class="pt3">
-                        </div> <br>
+                            <img src="images/maps/maps-final.png" class="pt3">
+                        </div>
                         
-                        <p class="lh-title sub-title">But wait</p>
-                        <p class="lh-title">...there were map cupcakes (mapcakes!) to celebrate the launch, courtesy of our lovely product manager, Anika. </p>
+                        <p class="sub-title">But wait</p>
+                        <p>...there were map cupcakes (mapcakes!) to celebrate the launch, courtesy of our lovely product manager, Anika. </p>
                         <div class="dtc-ns tc">
-                                <img src="images/maps/mapcakes.png" class="pt3">
+                            <img src="images/maps/mapcakes.png" class="pt3">
                         </div> <br>
-                        
                         
                         <div display="in-line">
-                        <p class="lh-title left pt3 pb5"><a href="newsletters.html" class="link text-link">← Previous: Newsletter Suite</a></p>
-
-
+                            <p class="left pt3 pb5"><a href="newsletters.html" class="link text-link">← Previous: Newsletter Suite</a></p>
                         </div>
                         <br><br>
                         
@@ -103,8 +101,8 @@
         <div class="cf fl w-100 w-35-l pl4-l pr5-l">
           <div class="pb3 pb4-l" >
             <a href="index.html" class="f2 celebration link">Angela Y. He</a>
-            <p class="lh-title" id="hide-ns">is a product designer with experience in UX/UI, front-end dev, and graphic design. Her passions lie in emerging tech + design for social impact.<br><br>Designing a clean energy future at <a class="text-link link" title="Arcadia" target="_blank" href="https://arcadia.com">Arcadia</a> 🌱</p><br>
-            <a class="link" id="hide-ns" title="About" href="about.html"><em>Read more..</em></a>
+            <p>I’m a product designer who has worked on customer-facing web apps, internal tools, and media products. I'm excited about tech &amp; design for social and sustainable impact.<br><br>
+            Currently a senior product designer at <a class="text-link link" title="Arcadia" target="_blank" href="https://arcadia.com">Arcadia</a> 🌱</p><br>
           </div>
         </div>
     </div>

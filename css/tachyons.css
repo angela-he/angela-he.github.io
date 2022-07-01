@@ -36,7 +36,17 @@ html { line-height: 1.15; /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ }
  * Remove the margin in all browsers.
  */
 header div a, header div nav { display: inline-block; vertical-align: middle; }
-body { margin: 0; font-family: Inconsolata; font-weight: 100; }
+body { 
+    margin: 0; 
+    font-family: Roboto Mono; 
+    font-weight: 400; 
+    font-size: .9em; 
+    letter-spacing: -.02em; 
+    line-height: 1.7em; 
+    -webkit-font-smoothing: antialiased;
+}
+/*ANGELA: I added font-size and letter-spacing to body for Roboto Mono*/
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -48,7 +58,7 @@ nav img { vertical-align: text-top; }
 h1 { font-size: 2em; margin: .67em 0; }
 th { font-family: Poppins; font-weight: bold; text-align: left; }
 .date { font-weight: 400; font-style: italic; vertical-align: text-top; padding-top: 1rem; }
-.title { font-family: Poppins; font-weight: bold; vertical-align: text-top; padding-top: 1rem; }
+.title { font-family: Poppins; font-weight: 500; vertical-align: text-top; padding-top: 1rem; }
 .project-title { font-family: Poppins; font-weight: 500; vertical-align: text-top; font-size: 1.4rem; line-height: 1.25; }
 .sub-title { font-family: Poppins; font-weight: 500; font-size: 1.25rem; line-height: 1.25; }
 /*
@@ -81,7 +91,7 @@ pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
 /**
  * Remove the gray background on active links in IE 10.
  */
-a { background-color: transparent; font-family: 'Inconsolata'; color: #0a4e9c; text-decoration: none; }
+a { background-color: transparent; font-family: 'Roboto Mono'; color: #0a4e9c; text-decoration: none; }
 .strike { text-decoration: line-through; }
 /**
  * 1. Remove the bottom border in Chrome 57-
@@ -892,8 +902,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 .lh-solid { line-height: 1; }
-.lh-title { line-height: 1.25; }
-.lh-copy { line-height: 1.5; }
+.lh-copy { line-height: 1.75em; }
+/* lh-title line-height used to be 1.25, for Inconsolata*/
 /*
 
    LINKS
@@ -1509,6 +1519,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .pb6 { padding-bottom: 8rem; }
 .pb7 { padding-bottom: 16rem; }
 .pt0 { padding-top: 0; }
+.pt05 { padding-top:0.125rem; } /*added for nav icon padding*/
 .pt1 { padding-top: .25rem; }
 .pt2 { padding-top: .5rem; }
 .pt3 { padding-top: 1rem; }

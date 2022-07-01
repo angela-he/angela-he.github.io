@@ -10,12 +10,12 @@
         <link rel="stylesheet" href="css/tachyons.css">  
         <link rel="stylesheet" type="text/css" href="/css/fonts.css">    
         <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
         <!-- adding Poppins header style -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
         <!-- end Poppins -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" href="images/favicon.png" />
   </head>
     
@@ -24,9 +24,9 @@
     <!-- NAV BAR -->
     <nav class="dt w-100 w-60-ns pt3 pt4-ns">
       <div class="dt-row w-100">
-        <p class="fl w-34 w-25-l"><a href="index.html" title="Home" class="link"><img src="images/nav/home-icon.png" width="15"> WORK</a></p>
-        <p class="fl w-34 w-25-l"><a href="about.html" title="About Me" class="link"><img src="images/nav/about-icon.png" width="16"> ABOUT</a></p>
-        <p class="fl w-30 w-25-l"><a href="mailto:angelahe4@gmail.com" title="Email" class="link"><img src="images/nav/email-icon.png" width="16" id="center-me"> EMAIL</a></p>  
+        <p class="fl w-34 w-25-l"><a href="index.html" title="Home" class="link"><img src="images/nav/home-icon.png" width="15" class="pt05 pr1"> WORK</a></p>
+        <p class="fl w-34 w-25-l"><a href="about.html" title="About Me" class="link"><img src="images/nav/about-icon.png" width="16" class="pt05 pr1"> ABOUT</a></p>
+        <p class="fl w-30 w-25-l"><a href="mailto:angelahe4@gmail.com" title="Email" class="link"><img src="images/nav/email-icon.png" width="16" id="center-me" class="pt05 pr1"> EMAIL</a></p> 
       </div>
     </nav>
     </header>
@@ -41,51 +41,66 @@
                 <tr class="">
                     <td class="w-90-l w-100 bt">
                         <p class="project-title pt2">Arcadia — Solar Dashboard</p>
-                        <p class="lh-title">I led the redesign of the community solar dashboard experience, guiding customers through the steps of joining a local solar project.</p><br>
-                        <img src="/images/sunrise/sunrise-state-header.png" class="w-100 pv2">
+                        <p>I led the redesign of the community solar dashboard experience, guiding customers through the steps of joining a local, remote solar project.</p>
+                        <img src="/images/sunrise/enrolled-state.png" class="w-100 pv2">
                         <br><br>
 
+                        <p class="sub-title">Overview</p>
+                        <p>Community solar is a program that allows renters and homeowners to subscribe to remote solar projects by redirecting their energy bills towards the upkeep of a local solar project. In return, the solar energy produced by the project is sold back to the grid, and subscribers receive a discount on their energy bill for helping produce clean energy. It's a win-win-win situation.<br><br>
+                        Arcadia's customer dashboard was stuck in the past; it primarily showed customers the legacy wind energy product and had a sparse solar experience, but the company had quickly become the leading community solar company in the market. With this shift, we needed to provide a comprehensive dashboard experience for community solar.
+                        </p><br>
+                            
                         <p class="sub-title">Goals</p>
-                        <p class="lh-title">Our new dashboard was originally created for customers who received wind energy certificates (RECs). As Arcadia shifted towards a solar energy focus (Community Solar) and away from wind energy, we needed to update our experience to communicate the value of community solar. <br><br>Our goals were to decrease attrition in the first 24 hours by: 
-                            <li class="lh-title">Highlighting community-level impact of joining a solar project</li>
-                            <li class="lh-title">Providing additional product context</li>
+                        <p>The existing solar page in the dashboard lacked information, didn't clarify next steps, and sorely needed a refresh. We knew that customers were dropping from their community solar projects because of misaligned expectations around what they had signed up for. <br><br>Our goal was to address these misaligned expectations by: 1) improving product comprehension by providing a clear explanation of how community solar works; 2) focusing on community-level impact prior to enrolling on a project; 3) showing clean energy impact and savings after enrolling on a project. 
                         </p><br>
 
                         <p class="sub-title">Wireframes and user testing</p>
-                        <p class="lh-title">Initial sketches and wireframes reframed our Solar page of the dashboard to include modules that emphasized community-level impact and improved community solar comprehension. After collecting feedback from stakeholders, I conducted user tests to see how people interacted with these designs and test product comprehension.</p><br>
-                        
+                        <p>We wanted to make the dashboard more modular and flexible, and we had a lot of ideas on new modules to add, such as a welcome module, community solar overview card, project updates, state-level energy module, etc. I created initial sketches and low fidelity wireframes with these ideas in mind to visualize the various ways to display community-level impact and product explanations.</p><br>
+
                         <div class="dtc-ns tc">
-                                <img src="images/sunrise/sunrise-wireframes.png" class="pt3"><p><em>Initial wireframes for a Waitlist state and Enrolled state</em></p>
+                            <img src="images/sunrise/sketches.png" class="pt3"><p><em>Sketches and inspiration</em></p>
                         </div><br>
                         
                         <div class="dtc-ns tc">
-                                <img src="images/sunrise/sunrise-research.png" class="pt3"><p><em>User testing brief &amp; script</em></p>
+                            <img src="images/sunrise/sunrise-wireframes.png" class="pt3"><p><em>Early designs for a pre-enrolled and enrolled views</em></p>
                         </div><br>
                         
+                        <p>After multiple rounds of stakeholder feedback and design critiques, I refined which modules to show and created a version of the solar page for each step of joining a solar project, from being pending as Arcadia determines a customer's project eligibility, to being on a project waitlist as the project is being constructed, to finally being enrolled and receiving solar credits. <br><br>
+                        With these designs, I conducted user tests to determine: 1) how people interacted with these pages; 2) if the copy and UX were clear; 3) and how the designs felt as a part of the entire onboarding experience for community solar.</p><br>
+                        
+                        <div class="dtc-ns tc">
+                            <img src="images/sunrise/medium-fidelity.png" class="pt3"><p><em>Pending and waitlist stages of joining a solar project</em></p>
+                        </div><br>
+                        
+                        <div class="dtc-ns tc">
+                            <img src="images/sunrise/sunrise-research.png" class="pt3"><p><em>User testing brief &amp; script</em></p>
+                        </div><br>
+                        
+
                         <p class="sub-title">Final designs</p>
-                        <p class="lh-title">User testing revealed that overall, the designs increased comprehension around the enrollment waiting period for joining a community solar project, and some improvements were made to address some points of confusion that were revealed. The final designs focused on clearly explaining the next steps of joining a solar project, along with visualizations of the clean energy impact that the solar projects added to a customer’s local community.</p><br>
+                        <p>User testing revealed that overall, the designs had high comprehension around the process of joining a community solar project, and some improvements were made to clarify project timelines and how billing worked. The final designs focused on clearly explaining the next steps of joining a solar project, along with visualizations of the renewable impact that the solar projects added to a customer’s local power grid.</p><br>
                         
                         <div class="dtc-ns tc">
-                                <img src="images/sunrise/pending-state.png" class="pt3"><p><em>Pending on a solar project</em></p>
+                            <img src="images/sunrise/pending-state.png" class="pt3"><p><em>Pending on a solar project</em></p>
                         </div><br>
                         
                         <div class="dtc-ns tc">
-                                <img src="images/sunrise/waitlist-state.png" class="pt3"><p><em>On a waitlist for a solar project</em></p>
+                            <img src="images/sunrise/waitlist-state.png" class="pt3"><p><em>On a waitlist for a solar project</em></p>
                         </div><br>
                         
                         <div class="dtc-ns tc">
-                                <img src="images/sunrise/enrolled-state.png" class="pt3"><p><em>Enrolled on a solar project</em></p>
+                            <img src="images/sunrise/enrolled-state.png" class="pt3"><p><em>Enrolled on a solar project</em></p>
                         </div><br>   
                         
                         
                         <p class="sub-title">Impact and aftermath</p>
-                        <p class="lh-title">The designs were built and released iteratively, and we partnered with Data analytics to track attrition rates throughout further quarters. </p><br>
+                        <p>The designs were built and released iteratively, starting with the pending view first. Our data analytic partners are working to measure how customers are interacting with this pages. This improved dashboard has allowed us to build iterative features on top of the baseline solar experience, such as our advocacy tool.  </p><br>
                         
                         
                         <div display="in-line">
-                        <p class="lh-title left pt3 pb5"><a href="index.html" class="link text-link">← Back to home</a></p>
+                        <p class="left pt3 pb5"><a href="index.html" class="link text-link">← Back to home</a></p>
 
-                        <p class="lh-title right pt3 pb5"><a href="advocacy.html" class="link text-link">Next: Advocacy Tool →</a></p>
+                        <p class="right pt3 pb5"><a href="advocacy.html" class="link text-link">Next: Advocacy Tool →</a></p>
                         </div>
                         <br><br>
                         
@@ -99,9 +114,8 @@
         <div class="cf fl w-100 w-35-l pl4-l pr5-l">
           <div class="pb3 pb4-l" >
             <a href="index.html" class="f2 celebration link">Angela Y. He</a>
-            <p class="lh-title" id="hide-ns">I’m a product designer who has worked on customer-facing web apps, internal tools, and media products. I'm excited about tech &amp; design for social and sustainable impact.<br><br>
+            <p>I’m a product designer who has worked on customer-facing web apps, internal tools, and media products. I'm excited about tech &amp; design for social and sustainable impact.<br><br>
             Currently a senior product designer at <a class="text-link link" title="Arcadia" target="_blank" href="https://arcadia.com">Arcadia</a> 🌱</p><br>
-            <a class="link" id="hide-ns" title="About" href="about.html"><em>Read more..</em></a>
           </div>
         </div>
     </div>
