@@ -44,6 +44,8 @@ body {
     letter-spacing: em; 
     line-height: 1.5em; 
     -webkit-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
+
 }
 
 /**
@@ -59,7 +61,7 @@ h1 {
     font-family: DM Sans; 
     font-weight: 700; 
     font-size: 2rem; 
-    letter-spacing: .02em; 
+    letter-spacing: -0.02em; 
     line-height: 1.25; 
     margin: 1em 0 .5em 0; 
     color: #383C40;
@@ -68,7 +70,7 @@ h2 {
     font-family: DM Sans; 
     font-weight: 700; 
     font-size: 1.25rem; 
-    letter-spacing: .02em; 
+    letter-spacing: -0.02em; 
     line-height: 1.25; 
     margin: .67em 0;
     color: #383C40;
@@ -77,7 +79,6 @@ ul {
     padding-left:20px;
     list-style-position:outside;
 }
-
 
 /* STYLING FOR HOMEPAGE */
 h2 a {
@@ -92,7 +93,9 @@ h2 a {
   opacity: .8; transition: opacity .15s ease-in;
 }
 .gradient {
-    background: linear-gradient(90deg, #39C5B0 0%, #D77C12 10%, #80B510 20%);
+    background-color: #383C40;
+    background: linear-gradient(90deg, #39C5B0, #D77C12, #80B510);
+    background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

@@ -20,6 +20,7 @@
     font-style: normal;
 }
 /* dm-sans-regular - latin */
+/* not entirely sure this does anything since I'm loading in the google font in <head> */
 @font-face {
   font-family: 'DM Sans';
   font-style: normal;
