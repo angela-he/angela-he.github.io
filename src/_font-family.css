@@ -4,6 +4,9 @@
    Docs: http://tachyons.io/docs/typography/font-family/
 
 */
+.dm-sans {
+    font-family: 'DM Sans', sans-serif;
+}
 .celebration {
     font-family: 'Celebration-Outline', 'Inconsolata', sans-serif;
 }
